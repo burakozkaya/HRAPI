@@ -47,6 +47,9 @@ namespace HrApp.Application.Mapping
             
 
             CreateMap<CompanyType, CompanyTypeDto>();
+
+            CreateMap<AppUser, CompanyManagerDto>();
+            CreateMap<AddAppUserCommand, CompanyManagerDto>();
         }
    }
 }
